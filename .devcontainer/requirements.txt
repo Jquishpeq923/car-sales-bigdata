@@ -1,5 +1,18 @@
-numpy
-pandas
-matplotlib
-scikit-learn
-ipykernel
+# ── Acceso a Kaggle ─────────────────────────────────────
+kagglehub[pandas-datasets]   # Carga datasets de Kaggle directo como DataFrame
+ 
+# ── Datos ────────────────────────────────────────────────
+pandas                       # Manipulación de tablas de datos
+numpy                        # Operaciones numéricas
+ 
+# ── Visualización ────────────────────────────────────────
+matplotlib                   # Gráficos estáticos
+seaborn                      # Gráficos estadísticos
+ 
+# ── Machine Learning ─────────────────────────────────────
+scikit-learn                 # Modelos y métricas de ML
+ 
+# ── Jupyter ──────────────────────────────────────────────
+ipykernel                    # Kernel de Python para notebooks
+notebook                     # Soporte para .ipynb en Codespace
+ 
