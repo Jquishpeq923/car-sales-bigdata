@@ -12,7 +12,7 @@ seaborn                      # Gráficos estadísticos
 # ── Machine Learning ─────────────────────────────────────
 scikit-learn                 # Modelos y métricas de ML
  
-# ── Jupyter ──────────────────────────────────────────────
+# ── Jupyter y Entorno ────────────────────────────────────
 ipykernel                    # Kernel de Python para notebooks
 notebook                     # Soporte para .ipynb en Codespace
- 
+ipywidgets                   # Elimina advertencias y habilita barras de progreso interactivas (tqdm)
