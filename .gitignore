@@ -1,0 +1,16 @@
+# Entornos virtuales
+proyecto_integrador_jq_jg/
+venv/
+.env
+
+# Archivos de Colab y Jupyter
+.ipynb_checkpoints/
+
+# Datos (no subir datasets pesados a GitHub)
+data/
+*.csv
+*.xlsx
+
+# Modelos binarios pesados
+*.pkl
+*.h5
