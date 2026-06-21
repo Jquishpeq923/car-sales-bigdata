@@ -1,21 +1,25 @@
-# ── Acceso a Kaggle ─────────────────────────────────────
-kagglehub[pandas-datasets]   # Carga datasets de Kaggle directo como DataFrame
+# Acceso a Kaggle
+kagglehub        # Carga datasets de Kaggle directo como DataFrame (Sección 2)
 
-# ── Datos ────────────────────────────────────────────────
-pandas                       # Manipulación de tablas de datos
-numpy                        # Operaciones numéricas
+# Datos y Procesamiento
+pandas           # Manipulación de tablas de datos y lectura masiva del dataset (Secciones 2 a 12)
+numpy            # Operaciones numéricas, manejo de arrays y cálculos estadísticos (Secciones 4, 10, 11)
 
-# ── Visualización ────────────────────────────────────────
-matplotlib                   # Gráficos estáticos
-seaborn                      # Gráficos estadísticos
+# Consumo de APIs y Web
+requests         # Simulación de verificación de conectividad y consumo de API RESTful pública (Sección 2)
 
-# ── Machine Learning ─────────────────────────────────────
-scikit-learn                 # Modelos y métricas de ML
+# Visualización
+matplotlib       # Creación de gráficos estáticos base y configuración de figuras (Secciones 4, 6, 7, 9, 10, 11, 12)
+seaborn          # Gráficos estadísticos avanzados como boxplots, histogramas y heatmaps (Secciones 4, 6, 7, 9)
 
-# ── Big Data ─────────────────────────────────────────────
-pyspark                      # Procesamiento distribuido para Big Data
+# Machine Learning
+scikit-learn     # Modelos base, codificación, métricas de evaluación y validación cruzada (Secciones 7, 8, 9, 10, 11)
+xgboost          # Algoritmo avanzado de ensamble Extreme Gradient Boosting (Sección 9.4)
 
-# ── Jupyter y Entorno ────────────────────────────────────
-ipykernel                    # Kernel de Python para notebooks
-notebook                     # Soporte para .ipynb en Codespace
-ipywidgets                   # Elimina advertencias y habilita barras de progreso interactivas (tqdm)
+# Big Data
+pyspark          # Procesamiento distribuido para Big Data (Preparación para escalabilidad y clústeres)
+
+# Jupyter y Entorno
+ipykernel        # Kernel principal de Python para ejecutar las celdas del notebook
+notebook         # Soporte nativo para visualizar y editar archivos .ipynb en el entorno
+ipywidgets       # Renderizado de interfaces, eliminación de advertencias y barras de progreso interactivas
